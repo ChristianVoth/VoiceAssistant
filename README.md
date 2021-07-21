@@ -67,11 +67,11 @@ Für die Installation einfach dem Github ReadMe folgen.
 
 ### Wichtig ! Für die Benutzung des Bots ist ein einmaliges Training von nöten
 
-### Für die Benutzung des Bots mit Sprache wichtige Downloads und weitere Installationen
+### Für die Benutzung des Bots mit Sprache sind weitere Installationen notwendig
 
 #### Deutsche Sprachmodelle für DeepSpeech
 
-Downloaden Sie die scorer und pbmm Datei für die passende DeepSpeech Version und fügen Sie diese dem Voicebot Ordner hinzu.
+Downloaden Sie die scorer und pbmm(Auf dem Raspberry Pi die tflite) Datei für die passende DeepSpeech Version und fügen Sie diese dem Voicebot Ordner hinzu.
 
 [Quelle der language models](https://github.com/AASHISHAG/deepspeech-german)
 
