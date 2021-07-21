@@ -43,7 +43,7 @@ text- und sprachbasierte Konversationen.
 
 #### Rasa für den Raspberry Pi
 
-Rasa besitzt kein offizielles Dock image for ARM, sodass auf Alternativen zurückgegriffen werden musste.
+Rasa besitzt kein offizielles Docker image for ARM, sodass auf Alternativen zurückgegriffen werden musste.
 
 Für die Installation auf einem Raspberry Pi empfehle ich das Projekt von Herrn Koen Vervloesem.
 
