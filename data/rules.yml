@@ -1,0 +1,28 @@
+version: "2.0"
+
+rules:
+
+- rule: Sag Auf Wiedersehen immer wenn der User Tschüss sagt
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: FrageAI
+  steps:
+  - intent: frage_ai
+  - action: utter_ai
+
+- rule: Affirm
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- rule: hallo
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: internet
+  steps:
+  - intent: internet_seiten_aufrufen
+  - action: action_open_google

@@ -1,0 +1,102 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hallo
+    - hey
+    - hi
+    - guten morgen
+    - guten tag
+    - guten mittag
+    - moin
+    - Na du
+    - Alles klar
+    - Was geht
+
+- intent: goodbye
+  examples: |
+    - Auf Wiedersehen
+    - Bis dann
+    - Bye
+    - Tschüss
+    - Wir sehen uns
+    - War nett
+    - Hab einen schönen Tag
+    - ciao
+    - Gute Arbeit
+    - Bis Später
+
+- intent: thankyou
+  examples: |
+    - danke
+    - vielen dank
+    - verstanden
+    - läuft
+    - ich bedanke mich
+    - bedankt
+    - sehr nett von dir
+    - das hilft mir
+    - weiter so
+    
+- intent: affirm
+  examples: |
+    - ja
+    - j
+    - yes
+    - auf jedenfall
+    - das klingt super
+    - korrekt
+    - jop
+    - jo
+
+- intent: webseiten
+  examples: |
+    - [Google.de]("website")
+    - [faz.net]("website")
+    - [bing.de]("website")
+    - [youtube.de("website")
+    - [facebook.de]("website")
+    - [instagram.de]("website")
+    - [twitter.de]("website")
+    - [wikipedia.org]("website")
+    - [ebay-kleinanzeigen.de]("website")
+
+- intent: internet_seiten_aufrufen
+  examples: |
+    - öffne die Seite [Google]("website")
+    - öffne [facebook]("website")
+    - rufe [youtube.de]("website") auf
+    - gehe auf [faz.net]("website")
+    - zeige mir die aktuellen Nachrichten auf [faz.net]("website")
+    - öffene die Website
+    - öffene die Webpage
+    - [google]("website")
+    - [google] ("website") für mich
+    - öffne [bing]("website")
+
+- intent: frage_ai
+  examples: |
+    - was ist künztliche Intelligenz?
+    - was ist ki?
+    - informationen zu ki
+    - informationen über ki
+    - wobei hilft eigentlich künstliche intelligenz?
+    - wie bringt mich künstliche intelligenz weiter?
+    - fakten über künstliche intelligenz?
+    - was muss ich über künstliche intelligenz wissen?
+
+- intent: deny
+  examples: |
+    - nein
+    - no
+    - n
+    - niemals
+    - Denke nicht
+    - das mag ich nicht
+    - auf keinen fall
+    - nicht wirklich
+
+
+
+  
