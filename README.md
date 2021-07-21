@@ -61,9 +61,16 @@ Für die Installation einfach dem Github ReadMe folgen.
 
 `rasa train`
 
+Raspberry Pi
+
+`docker-compose run rasa train`
 #### Teste Rasa ohne Spracherkennung durch:
 
 `rasa shell`
+
+Raspberry Pi
+
+`docker-compose run rasa shell`
 
 ### Wichtig ! Für die Benutzung des Bots ist ein einmaliges Training von nöten
 
