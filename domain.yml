@@ -1,0 +1,38 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - webseiten
+  - internet_seiten_aufrufen
+  - frage_ai
+  - thankyou
+
+actions:
+  - action_open_google
+
+responses:
+  utter_greet:
+  - text: "Hallo, wie kann ich helfen?"
+
+  utter_task_accepted:
+  - text: "Ok"
+    
+  utter_ai:
+  - text: "Ich bin künztliche Intelligenz yeah"
+
+  utter_did_that_help:
+  - text: "Konnte ich dir helfen?"
+
+  utter_affirm:
+  - text: "Das freut mich, wenn du mich nun beenden willst sage. Schluss"
+
+  utter_goodbye:
+  - text: "Einen schönen Tag"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
